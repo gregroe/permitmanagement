@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <CustomAction Id="contoso.contoso_permit.Button3.Button.CustomAction" Location="Mscrm.Form.contoso_permit.MainTab.Save.Controls._children" Sequence="65">
+      <CommandUIDefinition>
+        <Button Alt="$LocLabels:contoso.contoso_permit.Button3.Button.Alt" Command="contoso.contoso_permit.Command0.Command" Id="contoso.contoso_permit.Button3.Button" LabelText="$LocLabels:contoso.contoso_permit.Button3.Button.LabelText" Sequence="65" TemplateAlias="o2" ToolTipTitle="$LocLabels:contoso.contoso_permit.Button3.Button.ToolTipTitle" ToolTipDescription="$LocLabels:contoso.contoso_permit.Button3.Button.ToolTipDescription" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="contoso.contoso_permit.Command0.Command">
+      <EnableRules />
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ContosoPermit.Scripts.PermitForm.lockPermit" Library="$webresource:contoso_PermitFormScripts.js">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="contoso.contoso_permit.Button3.Button.Alt">
+      <Titles>
+        <Title description="Lock Permit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="contoso.contoso_permit.Button3.Button.LabelText">
+      <Titles>
+        <Title description="Lock Permit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="contoso.contoso_permit.Button3.Button.ToolTipDescription">
+      <Titles>
+        <Title description="Lock Permit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+    <LocLabel Id="contoso.contoso_permit.Button3.Button.ToolTipTitle">
+      <Titles>
+        <Title description="Lock Permit" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

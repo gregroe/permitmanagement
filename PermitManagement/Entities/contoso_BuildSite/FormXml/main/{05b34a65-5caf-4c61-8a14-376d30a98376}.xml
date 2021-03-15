@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{05b34a65-5caf-4c61-8a14-376d30a98376}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{a008c877-056e-4d6c-8834-8c77eee88e91}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0770c7d7-e17c-44ca-a8dc-033341f324f4}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ed2610fd-7e59-4ac3-800d-ec0a1050fd0a}">
+                        <labels>
+                          <label description="Street Address" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_street1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="contoso_street1" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b5f7c7b-9a8d-4780-bf87-742a749d31b2}" locklevel="0">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19d3ebfb-7672-43c3-a1fe-c300971d7365}" locklevel="0">
+                        <labels>
+                          <label description="State/Province" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_stateprovince" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_stateprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09ad208f-8d99-49c1-8218-da7906dee22a}" locklevel="0">
+                        <labels>
+                          <label description="ZIP/Postal Code" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_postalcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d67f4544-503f-4c69-b27b-0ab926e80136}" locklevel="0">
+                        <labels>
+                          <label description="Country/Region" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_country" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{181e5bb4-c485-4ba4-91bb-4c0d64829a32}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{35d66d2a-70e6-443d-b0e9-b7b4621bb4ad}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c871d187-6263-4a0a-8402-62a278c8e57f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c4143d7d-d4d9-4be1-981e-9c2a2f972325}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cb9db17e-917b-4ebb-a3d2-97e4d3117b4c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d0acdd44-4886-4818-a1a2-4157293739f9}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ce672472-6065-458b-99ce-095b7077d606}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e2911fff-2b48-42a5-8c7c-645c28cd592d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fe409d30-b615-4d18-9e41-8f5b7c7432ce}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

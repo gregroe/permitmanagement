@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{df01aca0-cfcb-4508-8cbe-b8998daa5ba7}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="Low">
+      <tabs>
+        <tab verticallayout="true" id="{e52689e7-7b79-4ce8-9e3b-7d44570c7d4f}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{93910350-c5f8-4f07-abea-3527fa1e3d92}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{11bda56d-2994-449d-95d5-1bb5c0053128}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="contoso_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cb420cb7-a67e-494b-b62c-f0550eed37ba}" locklevel="0">
+                        <labels>
+                          <label description="Inspection Type" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_inspectiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="contoso_inspectiontype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{798d1b70-8fb7-43c7-97af-b1a23a7e0122}" locklevel="0">
+                        <labels>
+                          <label description="Permit" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_permit" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="contoso_permit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dfc2038b-f3f1-4a17-86d9-047e5578f357}" locklevel="0">
+                        <labels>
+                          <label description="Scheduled Date" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_scheduleddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="contoso_scheduleddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{458eff64-6043-4b5e-86c2-140b50944401}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{865d1496-ec7b-4069-81dd-c0461708eda5}" locklevel="0">
+                        <labels>
+                          <label description="Comments" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_comments" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_comments" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4252c74b-4690-41b5-9209-cd9ae1ebfbfc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c5966e74-c0f3-4183-ad2c-3a13753ff4d9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8ac178d2-0586-4c6d-a839-e7747cf45baa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9f85192d-450b-4a0f-86e9-f964f3a1c4ef}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1e3b0043-0536-4ace-9c7c-ded8cc91a514}" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ab1623df-3c49-45e1-888f-5e4b7f44c0b3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{99ba1c26-15c9-4d43-b6d4-6697b55deb80}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8c3f269d-0ef3-4dd7-9010-465c6cb2a872}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{998285ef-9b91-4e50-9885-98bd124c3c46}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

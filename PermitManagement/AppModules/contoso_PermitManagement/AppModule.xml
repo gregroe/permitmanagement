@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>contoso_PermitManagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="contoso_PermitManagement" />
+    <AppModuleComponent type="1" schemaName="contoso_buildsite" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="contoso_inspection" />
+    <AppModuleComponent type="1" schemaName="contoso_newpermitrequest" />
+    <AppModuleComponent type="60" id="{95b3d788-d94b-42f5-aa6b-197e50b4ec89}" />
+    <AppModuleComponent type="60" id="{7a28bdaa-cdb6-4389-8c26-6313c85c667d}" />
+    <AppModuleComponent type="60" id="{342af485-3d84-eb11-a812-00224806e2fa}" />
+    <AppModuleComponent type="1" schemaName="contoso_permit" />
+    <AppModuleComponent type="1" schemaName="contoso_permittype" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Permit Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

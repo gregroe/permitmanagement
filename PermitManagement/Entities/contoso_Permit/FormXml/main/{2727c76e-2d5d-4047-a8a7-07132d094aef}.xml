@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2727c76e-2d5d-4047-a8a7-07132d094aef}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{fc3c5dcb-bd81-43be-9a1e-c83af00a80e6}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{91825ea1-cc67-4a50-b482-3d498995dc3a}" name="ZXzx">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1eaab21a-f6e4-4a40-8c4a-5b1926eaac4c}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="contoso_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e33bf955-e606-4bbf-9985-d9ff1cb94ba5}" locklevel="0">
+                        <labels>
+                          <label description="Permit Type" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_permittype" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="contoso_permittype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16c9f964-2c3c-4778-9d6b-f2f015880e99}" locklevel="0">
+                        <labels>
+                          <label description="Build Site" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_buildsite" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="contoso_buildsite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12200996-4c72-4824-87de-a938990be55c}" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="contoso_contact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31f1cd12-b773-469c-8ec0-2312f3659e28}" locklevel="0">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_startdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="contoso_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6dbf337b-cfc7-428d-98af-719ff1902dd2}" locklevel="0">
+                        <labels>
+                          <label description="New SIze" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_newsize" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="contoso_newsize" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e409670a-03cd-4b83-b2ae-8bbb6047587f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46c29ab2-63fd-4afb-af37-3e91d2884d05}" locklevel="0">
+                        <labels>
+                          <label description="col2" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_col2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_col2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8cdb783f-72e3-4755-ae50-57a3ac89b446}" locklevel="0">
+                        <labels>
+                          <label description="Col_test" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_col_test" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_col_test" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="inspectionsTab" id="a0757894-6846-4b81-98a6-0082a1ddea89" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Inspections" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="929fb99e-0746-4243-9d6f-979b1001119d" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="true">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{fad0bbb3-2550-43f4-9d22-f4d96c8497cb}" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Inspections" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                          <parameters>
+                            <TargetEntityType>contoso_inspection</TargetEntityType>
+                            <ViewId>{AB916D30-8D89-4BB8-B1FA-5D7AF3BB28E1}</ViewId>
+                            <ViewIds>{AB916D30-8D89-4BB8-B1FA-5D7AF3BB28E1}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3c140cc2-39a8-42b1-91c2-04bad4307d9b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{6b3eced0-21ca-480b-a79e-b760c7186409}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{119b34cb-e64f-4cb3-8d31-c745c0c62cd3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{037034de-949a-41be-895b-289cc7fd9387}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cf907e3d-f6b2-4cd5-b517-90d3c9f27dce}" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{14a427c9-9c4a-466d-b23a-2b4ec2ccfc68}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a7b376a5-561b-48bb-bfbf-f6897a6aa809}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0e0349fe-71bb-46fc-b4c9-f1a1ce0dcac9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dc650876-ef86-4a4d-b304-0d2d9f018696}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="contoso_PermitFormScripts.js" libraryUniqueId="{b53c8a22-1a13-a408-a821-7beb57b02cce}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="ContosoPermit.Scripts.PermitForm.handleOnLoad" libraryName="contoso_PermitFormScripts.js" handlerUniqueId="{1bb691a7-e260-7da6-20da-c8cacd0e13be}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="contoso_permittype">
+          <Handlers>
+            <Handler functionName="ContosoPermit.Scripts.PermitForm.handleOnChangePermitType" libraryName="contoso_PermitFormScripts.js" handlerUniqueId="{ec52e3a4-13ce-b4d0-a990-b6acdaa61245}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

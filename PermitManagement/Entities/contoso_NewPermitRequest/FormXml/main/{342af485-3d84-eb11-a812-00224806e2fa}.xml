@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{342af485-3d84-eb11-a812-00224806e2fa}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="Low">
+      <tabs>
+        <tab verticallayout="true" id="{bb00cc64-4b36-4ba0-bf45-0f6bdfedf343}" IsUserDefined="1" labelid="{ed804602-45ec-4d4e-9a66-0bd7286c7627}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f5086e83-e0af-48f8-b63d-df330fb3df06}" labelid="{a0ab75e9-3fad-42aa-9afa-6e705eae0df6}">
+                  <labels>
+                    <label description="New Permit Request" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6d6f670f-3cc4-4701-ba89-7db3d46e245d}" showlabel="true" labelid="{88c41014-3ae7-4d2b-b746-9774b6b7b6ea}">
+                        <labels>
+                          <label description="Request Name" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_newpermitrequest" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="contoso_newpermitrequest" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3a3b292-227b-42d5-b3b5-730728de9c35}" locklevel="0" labelid="{d4c98c09-87a4-4a16-b939-01b017d6677c}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e4b28ec-6b13-4e4a-9eaa-2ef23ec5b6d1}" locklevel="0" labelid="{42111186-2301-43bc-9845-2a8d0d5f5487}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0dd5c2f9-f436-439f-8d32-edfdcd619b1c}" locklevel="0" labelid="{46228ae7-cf18-441e-8241-d7b3cff7cc8b}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="crb30_address" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="crb30_address" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1d582db-2786-4a22-8ecb-8e2b861d59be}" locklevel="0" labelid="{afde8f4b-a2cc-4324-b957-6d05539b62d6}">
+                        <labels>
+                          <label description="Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_phonenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_phonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e353cf3-b9ca-40f8-a21c-806cff565a54}" locklevel="0">
+                        <labels>
+                          <label description="email" languagecode="1033" />
+                        </labels>
+                        <control id="crb30_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="crb30_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{17a11795-e217-4b43-9ab9-daa1e1f1c245}" locklevel="0" labelid="{ceb749fb-bfa8-4060-b473-fa03ea65e57d}">
+                        <labels>
+                          <label description="Permit Description" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_permitdescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="contoso_permitdescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3fca7e26-fd30-462b-b549-d92fd6bd513e}" labelid="{2486d356-4371-48d6-8ac2-3fc78b4b394f}" showlabel="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{65e4969d-b9e0-4eac-a913-85de93a0fb56}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c56d1fd4-5e7d-4037-814a-27fa27fdc74d}" showlabel="false" labelid="{c0bfae4b-7ca0-45e8-8e65-bf15161a0ff4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c3d417e0-c601-47a7-ab38-6f0c3e727884}" showlabel="false" labelid="{d141138e-4b23-4a57-98c0-7a02ee16aa40}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{877a5e2a-e256-4ecc-9f96-376b285b1116}" showlabel="false" labelid="{5e8d5678-81d8-4de2-8ed0-d38d2513cb1c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{70a5fb1d-99b8-4c06-8670-25d8f8b7d482}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{62c52dda-5c1f-400b-8370-2a0246b0c121}" showlabel="false" labelid="{4faeae0d-cdec-4db3-a7f8-67202c8cf461}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ffab43c1-dca2-4992-a9eb-449fe57ad1dd}" showlabel="false" labelid="{330e67cf-3763-4572-94eb-6249096d4a54}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{54f194bc-7c59-475b-a26f-173ae20cb730}" showlabel="false" labelid="{e0a25102-bcc9-4707-951f-e7d6173ec910}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="New Permit Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
