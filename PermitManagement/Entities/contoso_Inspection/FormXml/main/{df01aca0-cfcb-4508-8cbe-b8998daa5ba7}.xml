@@ -60,6 +60,14 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{d5686187-27ef-4394-b479-21d1ab1e3a0a}" locklevel="0">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{865d1496-ec7b-4069-81dd-c0461708eda5}" locklevel="0">
                         <labels>
                           <label description="Comments" languagecode="1033" />
