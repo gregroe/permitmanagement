@@ -76,19 +76,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8cdb783f-72e3-4755-ae50-57a3ac89b446}" locklevel="0">
-                        <labels>
-                          <label description="Col_test" languagecode="1033" />
-                        </labels>
-                        <control id="contoso_col_test" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_col_test" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{46c29ab2-63fd-4afb-af37-3e91d2884d05}" locklevel="0">
                         <labels>
                           <label description="col2" languagecode="1033" />
                         </labels>
                         <control id="contoso_col2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_col2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8cdb783f-72e3-4755-ae50-57a3ac89b446}" locklevel="0">
+                        <labels>
+                          <label description="Col_test" languagecode="1033" />
+                        </labels>
+                        <control id="contoso_col_test" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="contoso_col_test" disabled="false" />
                       </cell>
                     </row>
                   </rows>
